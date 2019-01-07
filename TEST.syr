@@ -1,0 +1,253 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: TEST.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "TEST.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "TEST"
+Output Format                      : NGC
+Target Device                      : xc6slx16-2-csg324
+
+---- Source Options
+Top Module Name                    : TEST
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/home/alper/xilinx-workspace/final/RAM.v" into library work
+Parsing module <RAM>.
+INFO:HDLCompiler:693 - "/home/alper/xilinx-workspace/final/RAM.v" Line 43. parameter declaration becomes local in RAM with formal parameter declaration list
+Analyzing Verilog file "/home/alper/xilinx-workspace/final/psm/SSSC.v" into library work
+Parsing module <SSSC>.
+Analyzing Verilog file "/home/alper/xilinx-workspace/final/LFSR.v" into library work
+Parsing module <LFSR>.
+Analyzing Verilog file "/home/alper/xilinx-workspace/final/kcpsm3.v" into library work
+Parsing module <kcpsm3>.
+Analyzing Verilog file "/home/alper/xilinx-workspace/final/TOP.v" into library work
+Parsing module <TOP>.
+Analyzing Verilog file "/home/alper/xilinx-workspace/final/TEST.v" into library work
+Parsing module <TEST>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <TEST>.
+
+Elaborating module <TOP>.
+
+Elaborating module <LFSR>.
+
+Elaborating module <RAM(DATA_WIDTH=8,ADDRESS_WIDTH=8)>.
+
+Elaborating module <kcpsm3>.
+
+Elaborating module <LUT1(INIT=2'b01)>.
+
+Elaborating module <FDR>.
+
+Elaborating module <FDS>.
+
+Elaborating module <LUT4(INIT=16'b010000000)>.
+
+Elaborating module <FD>.
+
+Elaborating module <FDE>.
+
+Elaborating module <LUT4(INIT=16'b1110101010101010)>.
+
+Elaborating module <LUT3(INIT=8'b0100)>.
+
+Elaborating module <FDRE>.
+
+Elaborating module <LUT4(INIT=16'b0111010000000000)>.
+
+Elaborating module <LUT4(INIT=16'b0101101000111100)>.
+
+Elaborating module <LUT3(INIT=8'b0101111)>.
+
+Elaborating module <LUT4(INIT=16'b01000000000000)>.
+
+Elaborating module <LUT4(INIT=16'b0101010000000000)>.
+
+Elaborating module <LUT2(INIT=4'b1101)>.
+
+Elaborating module <LUT4(INIT=16'b0100000111111100)>.
+
+Elaborating module <LUT2(INIT=4'b1000)>.
+
+Elaborating module <LUT4(INIT=16'b01)>.
+
+Elaborating module <MUXCY>.
+
+Elaborating module <LUT3(INIT=8'b0111111)>.
+
+Elaborating module <XORCY>.
+
+Elaborating module <LUT4(INIT=16'b0110100110010110)>.
+
+Elaborating module <LUT4(INIT=16'b1111001111111111)>.
+
+Elaborating module <LUT3(INIT=8'b11110011)>.
+
+Elaborating module <LUT2(INIT=4'b1100)>.
+
+Elaborating module <LUT2(INIT=4'b011)>.
+
+Elaborating module <INV>.
+
+Elaborating module <LUT3(INIT=8'b11100100)>.
+
+Elaborating module <FDRSE>.
+
+Elaborating module <LUT4(INIT=16'b0101000101)>.
+
+Elaborating module <RAM16X1D(INIT=16'b0)>.
+
+Elaborating module <LUT4(INIT=16'b010000000000)>.
+
+Elaborating module <LUT4(INIT=16'b1000000000000000)>.
+
+Elaborating module <RAM64X1S(INIT=64'b0)>.
+
+Elaborating module <LUT4(INIT=16'b1111111111100010)>.
+
+Elaborating module <LUT4(INIT=16'b0110111010001010)>.
+
+Elaborating module <MUXF5>.
+
+Elaborating module <LUT3(INIT=8'b011111)>.
+
+Elaborating module <LUT3(INIT=8'b01101100)>.
+
+Elaborating module <LUT3(INIT=8'b10010110)>.
+
+Elaborating module <LUT1(INIT=2'b10)>.
+
+Elaborating module <LUT4(INIT=16'b010)>.
+
+Elaborating module <LUT3(INIT=8'b11111110)>.
+
+Elaborating module <LUT4(INIT=16'b010000)>.
+
+Elaborating module <LUT4(INIT=16'b0100000000000000)>.
+
+Elaborating module <LUT4(INIT=16'b0100000000)>.
+
+Elaborating module <RAM32X1S(INIT=32'b0)>.
+
+Elaborating module <LUT4(INIT=16'b0110010101010101)>.
+
+Elaborating module <LUT4(INIT=16'b1010100110011001)>.
+WARNING:HDLCompiler:1127 - "/home/alper/xilinx-workspace/final/kcpsm3.v" Line 3174: Assignment to kcpsm3_opcode ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "/home/alper/xilinx-workspace/final/kcpsm3.v" Line 3274: Result of 54-bit expression is truncated to fit in 40-bit target.
+WARNING:HDLCompiler:1127 - "/home/alper/xilinx-workspace/final/kcpsm3.v" Line 3269: Assignment to kcpsm3_status ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/alper/xilinx-workspace/final/kcpsm3.v" Line 3292: Assignment to sf_contents ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/alper/xilinx-workspace/final/kcpsm3.v" Line 3315: Assignment to spm3f_contents ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/alper/xilinx-workspace/final/TOP.v" Line 86: Assignment to interrupt_ack ignored, since the identifier is never used
+
+Elaborating module <SSSC>.
+
+Elaborating module
+<RAMB16_S18(INIT_00=256'b0100000000001011110000000000000001000000000001001000010100000001110000100000000011110010000100001110001001010100010000100000000001010001010100000100000000001001110000000000000000000101000000010100000000000000,INIT_01=256'b0,INIT_02=256'b0,INIT_03=256'b0,INIT_04=256'b0,INIT_05=256'b0,INIT_06=256'b0,INIT_07=256'b0,INIT_08=256'b0,INIT_09=256'b0,INIT_0A=256'b0,INIT_0B=256'b0,INIT_0C=256'b0,INIT_0D=256'b0,INIT_0E=256'b0,INIT_0F=256'b0,INIT_10=256'b0,INIT_11=256'b0,INIT_12=256'b0,INIT_13=256'b0,INIT_14=256'b0,INIT_15=256'b0,INIT_16=256'b0,INIT_17=256'b0,INIT_18=256'b0,INIT_19=256'b0,INIT_1A=256'b0,INIT_1B=256'b0,INIT_1C=256'b0,INIT_1D=256'b0,INIT_1E=256'b0,INIT_1F=256'b0,INIT_20=256'b0,INIT_21=256'b0,INIT_22=256'b0,INIT_23=256'b0,INIT_24=256'b0,INIT_25=256'b0,INIT_26=256'b0,INIT_27=256'b0,INIT_28=256'b0,INIT_29=256'b0,INIT_2A=256'b0,INIT_2B=256'b0,INIT_2C=256'b0,INIT_2D=256'b0,INIT_2E=256'b0,INIT_2F=256'b0,INIT_30=256'b0,INIT_31=256'b0,INIT_32=256'b0,INIT_33=256'b0,INIT_34=256'b0,INIT_35=25
+6'b0,INIT_36=256'b0,INIT_37=256'b0,INIT_38=256'b0,INIT_39=256'b0,INIT_3A=256'b0,INIT_3B=256'b0,INIT_3C=256'b0,INIT_3D=256'b0,INIT_3E=256'b0,INIT_3F=256'b0,INITP_00=256'b011101101100000000011100000,INITP_01=256'b0,INITP_02=256'b0,INITP_03=256'b0,INITP_04=256'b0,INITP_05=256'b0,INITP_06=256'b0,INITP_07=256'b0)>.
+WARNING:HDLCompiler:413 - "/home/alper/xilinx-workspace/final/TEST.v" Line 96: Result of 9-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:1127 - "/home/alper/xilinx-workspace/final/TEST.v" Line 79: Assignment to data ignored, since the identifier is never used
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================

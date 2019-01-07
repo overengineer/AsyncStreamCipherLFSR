@@ -1,0 +1,47 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/alper/xilinx-workspace/final/TOP_isim_beh.exe" -prj "/home/alper/xilinx-workspace/final/TOP_beh.prj" "work.TOP" "work.glbl" 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/alper/xilinx-workspace/final/RAM.v" into library work
+WARNING:HDLCompiler:693 - "/home/alper/xilinx-workspace/final/RAM.v" Line 43: Parameter declaration becomes local in RAM with formal parameter declaration list
+Analyzing Verilog file "/home/alper/xilinx-workspace/final/psm/SSSC.v" into library work
+Analyzing Verilog file "/home/alper/xilinx-workspace/final/LFSR.v" into library work
+Analyzing Verilog file "/home/alper/xilinx-workspace/final/kcpsm3.v" into library work
+Analyzing Verilog file "/home/alper/xilinx-workspace/final/TOP.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 99236 KB
+Fuse CPU Usage: 1000 ms
+Compiling module LFSR
+Compiling module RAM_default
+Compiling module LUT1(INIT=2'b01)
+Compiling module FDR
+Compiling module FDS
+Compiling module LUT4(INIT=16'b010000000)
+Compiling module FD
+Compiling module FDE
+Compiling module LUT3(INIT=8'b0100)
+Compiling module FDRE
+Compiling module LUT2(INIT=4'b1101)
+Compiling module MUXCY
+Compiling module XORCY
+Compiling module INV
+Compiling module FDRSE
+Compiling module RAM16X1D(INIT=16'b0)
+Compiling module RAM64X1S(INIT=64'b0)
+Compiling module MUXF5
+Compiling module RAM32X1S(INIT=32'b0)
+Compiling module kcpsm3
+Compiling module RAMB16_S18(INIT_00=256'b01000000...
+Compiling module SSSC
+Compiling module TOP
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 56 Verilog Units
+Built simulation executable /home/alper/xilinx-workspace/final/TOP_isim_beh.exe
+Fuse Memory Usage: 1185904 KB
+Fuse CPU Usage: 1120 ms
+GCC CPU Usage: 120 ms

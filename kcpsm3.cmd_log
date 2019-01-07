@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj final -o /home/alper/xilinx-workspace/final/kcpsm3.tfi -lib work /home/alper/xilinx-workspace/final//kcpsm3.v -module kcpsm3 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

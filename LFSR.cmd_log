@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj final -o /home/alper/xilinx-workspace/final/LFSR.tfi -lib work /home/alper/xilinx-workspace/final//LFSR.v -module LFSR -template /opt/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

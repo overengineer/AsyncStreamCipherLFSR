@@ -1,0 +1,5 @@
+verilog work "RAM.v"
+verilog work "psm/SSSC.v"
+verilog work "LFSR.v"
+verilog work "kcpsm3.v"
+verilog work "TOP.v"

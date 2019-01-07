@@ -1,0 +1,11 @@
+vhdtdtfi -lang verilog -prj final -o /home/alper/xilinx-workspace/final/TEST.tfi -lib work /home/alper/xilinx-workspace/final//TEST.v -module TEST -template /opt/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj final -o /home/alper/xilinx-workspace/final/TEST.tfi -lib work /home/alper/xilinx-workspace/final//TEST.v -module TEST -template /opt/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj final -o /home/alper/xilinx-workspace/final/TEST.tfi -lib work /home/alper/xilinx-workspace/final//TEST.v -module TEST -template /opt/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "/home/alper/xilinx-workspace/final/TEST.xst" -ofn "/home/alper/xilinx-workspace/final/TEST.syr" 
+xst -intstyle ise -ifn "/home/alper/xilinx-workspace/final/TEST.xst" -ofn "/home/alper/xilinx-workspace/final/TEST.syr" 
+xst -intstyle ise -ifn "/home/alper/xilinx-workspace/final/TEST.xst" -ofn "/home/alper/xilinx-workspace/final/TEST.syr" 
+xst -intstyle ise -ifn "/home/alper/xilinx-workspace/final/TEST.xst" -ofn "/home/alper/xilinx-workspace/final/TEST.syr" 
+xst -intstyle ise -ifn "/home/alper/xilinx-workspace/final/TEST.xst" -ofn "/home/alper/xilinx-workspace/final/TEST.syr" 
+xst -intstyle ise -ifn "/home/alper/xilinx-workspace/final/TEST.xst" -ofn "/home/alper/xilinx-workspace/final/TEST.syr" 
+xst -intstyle ise -ifn "/home/alper/xilinx-workspace/final/TEST.xst" -ofn "/home/alper/xilinx-workspace/final/TEST.syr" 
+xst -intstyle ise -ifn "/home/alper/xilinx-workspace/final/TEST.xst" -ofn "/home/alper/xilinx-workspace/final/TEST.syr" 

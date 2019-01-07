@@ -1,0 +1,11 @@
+vhdtdtfi -lang verilog -prj final -o /home/alper/xilinx-workspace/final/TOP.tfi -lib work /home/alper/xilinx-workspace/final//TOP.v -module TOP -template /opt/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj final -o /home/alper/xilinx-workspace/final/TOP.tfi -lib work /home/alper/xilinx-workspace/final//TOP.v -module TOP -template /opt/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj final -o /home/alper/xilinx-workspace/final/TOP.tfi -lib work /home/alper/xilinx-workspace/final//TOP.v -module TOP -template /opt/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work /home/alper/xilinx-workspace/final/TOP.v -lang verilog -prj final -o TOP.spl -module TOP -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 TOP.spl /home/alper/xilinx-workspace/final/TOP.sym 
+vhdtdtfi -lib work /home/alper/xilinx-workspace/final/TOP.v -lang verilog -prj final -o TOP.spl -module TOP -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 TOP.spl /home/alper/xilinx-workspace/final/TOP.sym 
+xst -intstyle ise -ifn "/home/alper/xilinx-workspace/final/TOP.xst" -ofn "/home/alper/xilinx-workspace/final/TOP.syr" 
+xst -intstyle ise -ifn "/home/alper/xilinx-workspace/final/TOP.xst" -ofn "/home/alper/xilinx-workspace/final/TOP.syr" 
+xst -intstyle ise -ifn "/home/alper/xilinx-workspace/final/TOP.xst" -ofn "/home/alper/xilinx-workspace/final/TOP.syr" 
+xst -intstyle ise -ifn "/home/alper/xilinx-workspace/final/TOP.xst" -ofn "/home/alper/xilinx-workspace/final/TOP.syr" 

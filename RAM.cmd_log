@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj final -o /home/alper/xilinx-workspace/final/RAM.tfi -lib work /home/alper/xilinx-workspace/final//RAM.v -module RAM -template /opt/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

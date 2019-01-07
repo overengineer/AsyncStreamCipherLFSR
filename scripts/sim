@@ -1,0 +1,22 @@
+#!/usr/bin/python3
+
+def eight_bit(x):
+  return 0xff & x
+
+k = 0x54
+z = 0x12
+m = 0x01
+
+with open('out.csv','w') as file:
+	file.write('\t'.join(('z','m','g','c'))+'\n')
+	while(m<0xff):
+		g = eight_bit(z ^ k)
+		c = eight_bit(g ^ m)
+		file.write('\t'.join(["%02x"%x for x in (z,m,g,c)])+'\n')
+		f = eight_bit(z | c)
+		b = eight_bit((f >> 0) ^ (f >> 2) ^ (f >> 3) ^ (f >> 4))
+		z = eight_bit((b << 7) | (z >> 1))
+		m = m + 1
+
+
+

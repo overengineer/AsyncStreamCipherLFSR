@@ -8,7 +8,7 @@ z = 0x12
 m = 0x01
 
 with open('out.csv','w') as file:
-	file.write('\t'.join(('z','m','g','c'))+'\n')
+	file.write(','.join(('z','m','g','c'))+'\n')
 	while(m<0xff):
 		g = eight_bit(z ^ k)
 		c = eight_bit(g ^ m)

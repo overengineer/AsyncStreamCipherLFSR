@@ -1,1 +1,1 @@
-This projects is FPGA implementation of Self-Synchronizing (Async) Stream Cipher Algorithm with Linear Feedback Shift Register using PicoBlaze Microprocessor. You can look at related [blog post](https://overengineer.github.io/AsyncStreamCipher) for further information.
+This project is FPGA implementation of Self-Synchronizing (Async) Stream Cipher Algorithm with Linear Feedback Shift Register using PicoBlaze Microprocessor. You can look at related [blog post](https://overengineer.github.io/AsyncStreamCipher) for further information.
